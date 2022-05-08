@@ -4,7 +4,7 @@ El enlace al repositorio de GitHub de este proyecto es el siguiente: [GitHub](ht
 
 El dataset de Kaggle usado en este proyecto es el siguiente: [Kaggle](https://www.kaggle.com/aariyan101/usa-housingcsv)
 
-He realizado un ejericio de estructuras y manejo de datos, en el que partiendo de un dataset, tenemos que hallar las graficas que describan las implicaciones estadisticas del mismo. Sin embargo en mi ordenador hay un problema con las librerias pandas, numpy y matplotlib entre otras, por lo cual no he podido adjuntar en este repositorio las graficas pedidas. Sin embargo al ejecutarlo en un ordenador en el que si funcionen estas librerias, saldran los graficos perfectamente. 
+He realizado un ejericio de estructuras y manejo de datos, en el que partiendo de un dataset, tenemos que hallar las graficas que describan las implicaciones estadisticas del mismo. Sin embargo en mi ordenador hay un problema con las librerias pandas, numpy y matplotlib entre otras, por lo cual no he podido adjuntar en este repositorio las graficas pedidas. Sin embargo al ejecutarlo en un ordenador en el que si funcionen estas librerias, saldrán los graficos perfectamente. 
 
 ### Codigograficos:
 
