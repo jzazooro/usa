@@ -21,6 +21,6 @@ class codigografico:
             plt.scatter(self.dt[columnauno]. self.dt[columnados])
         else:
             self.dt.groupby(columnauno)[columnados].sum().plot(kind=tipodegrafico, ax=ax)
-        ax.set_title('grafico' + tipodegrafico, loc='center', fontdict={'fontsize':14, 'fontweight': 'bold', 'color':'tab:blue'})
+        ax.set_title('grafico' + tipodegrafico, loc='center', fontdict={'fontsize':14, 'fontweight': 'bold', 'color':'tab:green'})
         ax.set_ylabel('')
         plt.savefig('graficos/grafico' + ' - ' + tipodegrafico + columnauno + columnados + '.png', bbox_inches='tight')
