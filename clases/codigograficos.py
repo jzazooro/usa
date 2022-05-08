@@ -17,4 +17,10 @@ class codigografico:
         
         print("el coeficiente de correlacion de pearson es {}".format(pearson()))
         fig, ax =plt.subplots()
-        
+        if tipodegrafico=="dispersion":
+            plt.scatter(self.dt[columnauno]. self.dt[columnados])
+        else:
+            self.dt.groupby(columnauno)[columnados].sum().plot(kind=tipodegrafico, ax=ax)
+        ax.set_title('grafico' + tipodegrafico, loc='center', fontdict={'fontsize':14, 'fontweight': 'bold', 'color':'tab:blue'})
+        ax.set_ylabel('')
+        plt.savefig('graficos/grafico' + ' - ' + tipodegrafico + columnauno + columnados + '.png', bbox_inches='tight')
